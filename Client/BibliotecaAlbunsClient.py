@@ -5,8 +5,7 @@
 from zeep import Client
 
 class Album:
-    def __init__(self):
-        pass
+    pass
         
 def novoAlbum():
     ret = Album()
