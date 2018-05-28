@@ -18,5 +18,7 @@ public interface BibliotecaAlbunsServer {
 	/** Métodos do WebService **/
 	@WebMethod
 	public List<Album> retornaAlbuns();
+	
+	@WebMethod
 	public void insereAlbum(String titulo, String artista, String gravadora, int ano);
 }
